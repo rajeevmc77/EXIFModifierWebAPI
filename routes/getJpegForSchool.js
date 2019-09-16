@@ -5,6 +5,7 @@ var fs = require("fs");
 const readExif = require('read-exif');
 var dateFormat = require('dateformat');
 var md5 = require('md5');
+
 var appRoot = require('../basedir')
 
 var router = express.Router();
@@ -49,6 +50,8 @@ router.get('/:schoolCode/:teamId', function(req, res, next) {
   });
  
 });
+
+
 
 module.exports = router;
 
