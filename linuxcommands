@@ -1,0 +1,1000 @@
+ 1018  sudo apt-get -f install
+ 1019  sudo apt-get update
+ 1020  sudo apt-get install -y curl openssh-server ca-certificates
+ 1021  sudo apt-get install -y postfix
+ 1022  curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+ 1023  curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+ 1024  sudo EXTERNAL_URL="https://gitlab.k.com" apt-get install gitlab-ce
+ 1025  code
+ 1026  mkdir .dist
+ 1027  cd /etc/gitlab/
+ 1028  ls gitlab.rb
+ 1029  cat gitlab.rb
+ 1030  sudo cat gitlab.rb| grep post
+ 1031  sudo systemctl postgresql status 
+ 1032  sudo systemctl status  postgresql  
+ 1033  sudo systemctl restart  postgresql  
+ 1034  psql
+ 1035  sudo cp gitlab.rb gitlab.1rb
+ 1036  sudo gedit gitlab.rb
+ 1037  sudo systemctl restart postgresql
+ 1038  sudo gedit gitlab.rb
+ 1039  exit
+ 1040  sudo systemctl status postgresql
+ 1041  sudo systemctl restart  postgresql
+ 1042  sudo EXTERNAL_URL="https://gitlab.kite.com" apt-get install gitlab-ce
+ 1043  sudo apt-get -f install
+ 1044  sudo EXTERNAL_URL="https://gitlab.kite.com" apt-get install gitlab-ce
+ 1045  sudo systemctl status gitlab
+ 1046  sudo systemctl  gitlab status 
+ 1047  sudo systemctl restart  gitlab  
+ 1048  sudo service gitlab restart
+ 1049  sudo systemctl restart  gitlab-ce  
+ 1050  sudo systemctl restart  gitlab-ctl 
+ 1051  sudo gitlab-ctl status 
+ 1052  sudo gitlab-ctl restart
+ 1053  exit
+ 1054  cd /etc/nginx/
+ 1055  ls
+ 1056  cd conf.d/
+ 1057  ls
+ 1058  vi default.conf
+ 1059  vi basic-settings.conf 
+ 1060  cd ..
+ 1061  ls
+ 1062  cd sites-enabled/
+ 1063  ls
+ 1064  vi localhost 
+ 1065  vi default 
+ 1066  cd ..
+ 1067  ls
+ 1068  cd sites-available/
+ 1069  ls
+ 1070  vi localhost 
+ 1071  exit
+ 1072  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1073  cd /var/opt/gitlab/nginx
+ 1074  cd /var/opt/gitlab/
+ 1075  ls
+ 1076  cd nginx
+ 1077  sudo chmod 777 nginx
+ 1078  cd nginx
+ 1079  ls
+ 1080  cd conf
+ 1081  sudo chmod 777 conf
+ 1082  cd conf
+ 1083  ls
+ 1084  cat gitlab-http.conf 
+ 1085  sudo chmod 777 nginxq!
+ 1086  exit
+ 1087  sudo apt-get install gnome-search-tool
+ 1088  cd /var/opt/gitlab/nginx
+ 1089  sudo cd /var/opt/gitlab/nginx
+ 1090  su
+ 1091  su user
+ 1092  exit
+ 1093  pwd
+ 1094  ab -k -c 500 -n 5000 -H "PRIVATE-TOKEN: g9jrjjiJrfpGj4GZfdfZ"  "http://gitlab.kite.kerala.gov.in/api/v4/projects/2/repository/files/unit_plan%2F28.json/raw?ref=e158e66"
+ 1095  sudo vi /etc/hosts
+ 1096  sudo gitlab-ctl reconfigure
+ 1097  sudo EXTERNAL_URL="https://gitlab.kite.com" apt-get install gitlab-ce
+ 1098  sudo gitlab-ctl reconfigure
+ 1099  lscpu
+ 1100  sudo EXTERNAL_URL="http://gitlab.kite.com" apt-get install gitlab-ce
+ 1101  sudo gitlab-ctl reconfigure
+ 1102  sudo EXTERNAL_URL="http://gitlab.kite.com" apt-get install gitlab-ce
+ 1103  sudo gitlab-ctl reconfigure
+ 1104  sudo gitlab-ctl stop
+ 1105  sudo gitlab-ctl reconfigure
+ 1106  sudo EXTERNAL_URL="http://gitlab.kite.com" apt-get install gitlab-ce
+ 1107  sudo gitlab-ctl start
+ 1108  mkdir .dist
+ 1109  git init
+ 1110  git remote add origin https://gitlab.kite.com/root/samagra.git
+ 1111  git add .
+ 1112  git commit
+ 1113  git commit -m "first commit"
+ 1114  git push -u origin master
+ 1115  npm install archiver --save
+ 1116  npm audit fix
+ 1117  npm audit fix --force
+ 1118  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1119  exit
+ 1120  ssh -i "samanwaya-web.pem" ubuntu@ec2-52-66-175-158.ap-south-1.compute.amazonaws.com
+ 1121  chmod 400 samanwaya-web.pem
+ 1122  ssh -i "samanwaya-web.pem" ubuntu@ec2-52-66-175-158.ap-south-1.compute.amazonaws.com
+ 1123  exit
+ 1124  ssh -i "samanwaya-web.pem" ubuntu@ec2-52-66-175-158.ap-south-1.compute.amazonaws.com
+ 1125  ssh -i "samanwaya-web.pem" ubuntu@ec2-52-66-175-158.ap-south-1.compute.amazonaws.com
+ 1126  exit
+ 1127  sudo vi /etc/hosts
+ 1128  exit
+ 1129  ab -k -c 500 -n 5000 -H "PRIVATE-TOKEN: g9jrjjiJrfpGj4GZfdfZ"  "http://gitlab.kite.kerala.gov.in/api/v4/projects/2/repository/files/unit_plan%2F28.json/raw?ref=e158e66"
+ 1130  ps -ef |grep nginx
+ 1131  sudo systemctl stop nginx
+ 1132  ps -ef |grep nginx
+ 1133  top
+ 1134  exit
+ 1135  sudo gedit /etc/hosts
+ 1136  cat  /etc/hosts
+ 1137  clear
+ 1138  top
+ 1139  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1140  git init
+ 1141  git remote add origin http://gitlab.kite.com/root/samagra.git
+ 1142  git add .
+ 1143  git commit -m "Initial commit"
+ 1144  git push -u origin master
+ 1145  exit
+ 1146  ssh -i "samanwaya.pem" ubuntu@ec2-52-66-175-158.ap-south-1.compute.amazonaws.com
+ 1147  ssh -i "samanwaya.pem" root@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1148  sudo chmod 400 samanwaya.pem
+ 1149  ssh -i "samanwaya.pem" root@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1150  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1151  ab -k -c 500 -n 5000 -H "PRIVATE-TOKEN: 9BevpS5Ba4CeVBqaBmms"  "http://gitlab.kite.com/api/v4/projects/1/repository/files/qry.sql/raw?ref=a872f9ad"
+ 1152  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1153  sudo vi /etc/hosts
+ 1154  vi /etc/hosts
+ 1155  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1156  exit
+ 1157  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1158  exit
+ 1159  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1160  exit
+ 1161  vi /etc/hosts
+ 1162  sudo vi /etc/hosts
+ 1163  exit
+ 1164  ps -ef | grep nginx
+ 1165  sudo apt-get install catfish
+ 1166  sudo apt-get update
+ 1167  sudo apt-get install gnome-search-tool
+ 1168  lsb_release -a
+ 1169  cd /etc/apt
+ 1170  ls
+ 1171  cat sources.list
+ 1172  cd ..
+ 1173  ls
+ 1174  cd apt
+ 1175  ls
+ 1176  cd sources.list.d/
+ 1177  ls
+ 1178  cd ..
+ 1179  ls
+ 1180  cat sources.list
+ 1181  sudo vi sources.list
+ 1182  sudo apt-get update
+ 1183  sudo apt-get install gnome-search-tool
+ 1184  sudo apt install light-themes
+ 1185  sudo apt install gnome-session
+ 1186  sudo apt install ubuntu-session
+ 1187  mkdir .dist
+ 1188  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+ 1189  sudo gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+ 1190  sudo apt install x11-utils
+ 1191  mkdir .dist
+ 1192  python3
+ 1193  rm -rf venv
+ 1194  virtualenv -p /usr/bin/python3 venv/
+ 1195  sudo dpkg-reconfigure python3
+ 1196  pwd
+ 1197  cd ..
+ 1198  rm -rf venv
+ 1199  virtualenv -p /usr/bin/python3 venv/
+ 1200  sudo virtualenv -p /usr/bin/python3 venv/
+ 1201  sudo pip3 install virtualenv
+ 1202  sudo pip install virtualenv
+ 1203  sudo pip3 install virtualenv
+ 1204  sudo pip install --upgrade pip using 9.0.1-3.
+ 1205  sudo pip install --upgrade pip using 9.0.1-3
+ 1206  python3 -m pip --version
+ 1207  python3 -m pip3 --version
+ 1208  pip3 install --user --upgrade pip
+ 1209  sudo apt remove python3-pip
+ 1210  python3 -m pip install --user --upgrade pip
+ 1211  python3
+ 1212  pip3
+ 1213  sudo apt update
+ 1214  sudo apt install python3-pip
+ 1215  pip3 --version
+ 1216  sudo nano /etc/apt/sources.list
+ 1217  pip3 --version
+ 1218  sudo apt install python3-pip
+ 1219  sudo apt update
+ 1220  sudo apt install python3-pip
+ 1221  sudo apt install python-pip
+ 1222  pip3 --version
+ 1223  sudo apt install python3-pip
+ 1224  sudo pip3 install virtualenv
+ 1225  pip3 --version
+ 1226  sudo apt update
+ 1227  sudo apt list --upgradable
+ 1228  sudo apt list --upgrade
+ 1229  sudo apt-get update
+ 1230  sudo apt-get upgrade
+ 1231  sudo apt-get dist-upgrade
+ 1232  sudo apt install python3-pip
+ 1233  pip3 --version
+ 1234  sudo apt-get install python3-pip
+ 1235  pip3 --version
+ 1236  sudo apt install python-pip
+ 1237  pip --version
+ 1238  cd
+ 1239  pip3 --version
+ 1240  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ 1241  sudo apt install curl
+ 1242  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ 1243  python3 get-pip.py --force-reinstall
+ 1244  sudo python3 get-pip.py --force-reinstall
+ 1245  pip3 --version
+ 1246  sudo python3 -m pip install --user --upgrade pip
+ 1247  sudo pip3 install virtualenv
+ 1248  virtualenv -p /usr/bin/python3 venv/
+ 1249  source venv/bin/activate
+ 1250  pip install -r requirements.txt
+ 1251  pip3 install -r requirements.txt
+ 1252  rm -rf venv
+ 1253  virtualenv -p /usr/bin/python3 venv/
+ 1254  pip3 install -r requirements.txt
+ 1255  sudo pip3 install -r requirements.txt
+ 1256  rm -rf venv
+ 1257  virtualenv -p /usr/bin/python3 venv/
+ 1258  source venv/bin/activate
+ 1259  sudo pip3 install -r requirements.txt
+ 1260  echo $PYTHONHOME
+ 1261  touch ~/.bash_profile
+ 1262  open ~/.bash_profile
+ 1263  sudo open ~/.bash_profile
+ 1264  echo $PYTHONPATH
+ 1265  python3
+ 1266  whereispython
+ 1267  cd /usr/local
+ 1268  cd bin
+ 1269  ls
+ 1270  ls python
+ 1271  which python
+ 1272  whereis python
+ 1273  cd ..
+ 1274  cd bin
+ 1275  ls python*
+ 1276  ls -l python*
+ 1277  cd python3.6
+ 1278  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1279  exit
+ 1280  sudo chmod +x KnowageReportDesigner
+ 1281  exit
+ 1282  mkdir .dist
+ 1283  sudo chmod +x zap.sh
+ 1284  sh zap.sh
+ 1285  sh ./zap.sh
+ 1286  sudo sh ./zap.sh
+ 1287  sudo chmod +x zap.sh
+ 1288  sh zap.sh
+ 1289  echo $JAVA_HOME
+ 1290  echo $JAVA
+ 1291  echo $JAVA_OUTPUT
+ 1292  clear
+ 1293  ./zap.sh
+ 1294  exit
+ 1295  sudo chmod a+x StarUML-3.1.0-x86_64.AppImage 
+ 1296  ./StarUML-3.1.0-x86_64.AppImage 
+ 1297  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1298  exit
+ 1299  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1300  exit
+ 1301  vi /etc/hosts
+ 1302  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1303  exit
+ 1304  sudo apt-get install cloc
+ 1305  sudo chmod +x loc.sh 
+ 1306  CD ..
+ 1307  cd ..
+ 1308  cloc samagra_api_ts/
+ 1309  cloc samagra_client/
+ 1310  cloc samagra_client/ > locCount.txt
+ 1311  cloc samagra_api_ts/ >> locCount.txt 
+ 1312  git clone git@bitbucket.org:itatschoolproject/samagra_api_ts.git
+ 1313  git clone git@bitbucket.org:kiteprogrammers/samagra_client.git
+ 1314  sudo git clone git@bitbucket.org:kiteprogrammers/samagra_client.git
+ 1315  git clone https://itatschoolproject@bitbucket.org/kiteprogrammers/samagra_client.git
+ 1316  git clone https://itatschoolproject@bitbucket.org/itatschoolproject/samagra_api_ts.git
+ 1317  ls
+ 1318  sudo chmod 777 LOC.ods 
+ 1319  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1320  exit
+ 1321  ssh -i "samanwaya.pem" ubuntu@ec2-13-235-121-158.ap-south-1.compute.amazonaws.com
+ 1322  exit
+ 1323  mkdir .dist
+ 1324  test
+ 1325  ngtest
+ 1326  npm test
+ 1327  mkdir .dist
+ 1328  ng new angtest
+ 1329  cd angtest/
+ 1330  npm start
+ 1331  npm test
+ 1332  ng test --code-coverage
+ 1333  clear
+ 1334  npm install
+ 1335  npm test
+ 1336  ng test --code-coverage
+ 1337  exit
+ 1338  ng test --code-coverage
+ 1339  exit
+ 1340  ng test
+ 1341  ng test ----code-coverage
+ 1342  mkdir .dist
+ 1343  npm test
+ 1344  ng test
+ 1345  ng test --code-coverage
+ 1346  git clone https://github.com/KnowageLabs/Knowage-Server.git
+ 1347  ng e2e
+ 1348  exit
+ 1349  mkdir .dist
+ 1350  git clone https://github.com/ealves/protractor-recorder.git
+ 1351  cd protractor-recorder
+ 1352  npm install
+ 1353  sudo npm install
+ 1354  sudo npm uninstall node-sass -g && npm  cache clean && npm  install node-sass
+ 1355  sudo npm uninstall node-sass -g && npm  cache clean --force && npm  install node-sass
+ 1356  sudo npm uninstall node-sass -g && sudo  npm  cache clean --force && sudo  npm  install node-sass
+ 1357  sudo npm rebuild node-sass 
+ 1358  node-sass -v
+ 1359  sudo npm install
+ 1360  webdriver-manager start
+ 1361  node-sass -v
+ 1362  sudo npm install -g node-sass
+ 1363  sudo chmod -R 777 /usr/local/lib/node_modules/
+ 1364  sudo npm install -g node-sass
+ 1365  sudo chown -R root:user /usr/local/lib/node_modules/
+ 1366  sudo chmod -R 775 /usr/local/lib/node_modules/
+ 1367  sudo npm install -g node-sass
+ 1368  npm install -g node-sass
+ 1369  node-sass -v
+ 1370  pwd
+ 1371  npm install
+ 1372  sudo chmod -R  777  /rajeev/downloads/Testing/protractor-recorder/
+ 1373  npm install
+ 1374  sudo npm install -g webdriver-manager
+ 1375  webdriver-manager start
+ 1376  webdriver-manager update
+ 1377  sudo webdriver-manager update
+ 1378  webdriver-manager start
+ 1379  sudo npm install
+ 1380  sudo npm audit fix
+ 1381  sudo  webdriver-manager start
+ 1382  ls
+ 1383  gulp
+ 1384  sudo apt install gulp
+ 1385  gulp
+ 1386  ext install pthorsson.vscode-jsp
+ 1387  mkdir .dist
+ 1388  npm start
+ 1389  ng e2e
+ 1390  npm e2e
+ 1391  ng e2e
+ 1392  npm start
+ 1393  mkdir .dist
+ 1394  npm start
+ 1395  ng e2e
+ 1396  npm start
+ 1397  ng e2e
+ 1398  npm start
+ 1399  mkdir .dist
+ 1400  npm init
+ 1401  npm install
+ 1402  npm install cluster --save
+ 1403  sudo npm install cluster --save
+ 1404  sudo npm install os --save
+ 1405  sudo npm install http --save
+ 1406  mkdir .dist
+ 1407  npm start
+ 1408  node index.js
+ 1409  sudo npm install process
+ 1410  clear
+ 1411  node index.js
+ 1412  clear
+ 1413  sudo chmod +x jprofiler_linux_11_0_1.sh 
+ 1414  ./jprofiler_linux_11_0_1.sh 
+ 1415  exit
+ 1416  mkdir .dist
+ 1417  git clone https://itatschoolproject@bitbucket.org/itsprogrammers/samanwaya.git
+ 1418  cloc
+ 1419  history
+ 1420  history > commands 
+ 1421  vi commands
+ 1422  gedit commands 
+ 1423  ls 
+ 1424  cloc samanwaya/ > samanwayacount.txt
+ 1425  mkdir .dist
+ 1426  node index.js
+ 1427  sudo gedit /etc/hosts
+ 1428  exit
+ 1429  clear
+ 1430  node index.js
+ 1431  npm start
+ 1432  pwd
+ 1433  history > commands 
+ 1434  ping 192.168.1.69
+ 1435  ab -k -c 20 -n 250 "http://192.168.1.69/uid-validation/"
+ 1436  ab -k -c 200 -n 200 "http://192.168.1.69/uid-validation/"
+ 1437  ab -k -c 100 -n 100 "http://192.168.1.69/uid-validation/"
+ 1438  ab -k -c 150 -n 150 "http://192.168.1.69/uid-validation/"
+ 1439  ab -k -c 100 -n 100 "http://192.168.1.69/uid-validation/"
+ 1440  ab -k -c 100 -n 1000 "http://192.168.1.69/uid-validation/"
+ 1441  ab -k -c 100 -n 500 "http://192.168.1.69/uid-validation/"
+ 1442  ab -k -c 10 -n 1000 "http://192.168.1.69/uid-validation/"
+ 1443  ab -k -c 1 -n 1000 "http://192.168.1.69/uid-validation/"
+ 1444  exit
+ 1445  lscpu
+ 1446  top
+ 1447  exit
+ 1448  npm start
+ 1449  node index.js
+ 1450  clear
+ 1451  node index.js
+ 1452  clear
+ 1453  node index.js
+ 1454  mkdir .dist
+ 1455  dgraph-ratel
+ 1456  exit
+ 1457  dgraph alpha --lru_mb 2048 --zero localhost:5080
+ 1458  dgraph-ratel
+ 1459  cd /var/
+ 1460  ls
+ 1461  ps -ef 
+ 1462  ps -ef | grep git
+ 1463  sudo gitlab-ctl stop
+ 1464  dgraph alpha --lru_mb 2048 --zero localhost:5080
+ 1465  sudo dgraph alpha --lru_mb 2048 --zero localhost:5080
+ 1466  sudo curl https://get.dgraph.io -sSf | bash
+ 1467  dgraph zero
+ 1468  history 
+ 1469  history  | ssh
+ 1470  history  | grep ssh
+ 1471  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1472  exit
+ 1473  mkdir .dist
+ 1474  cd /home/your_username/.config
+ 1475  cd /home/user/.config
+ 1476  ls
+ 1477  sudo chown -R user libreoffice/
+ 1478  sudo chgrp -R user libreoffice/
+ 1479  exit
+ 1480  sudo apparmor_parser -R /etc/apparmor.d/usr.lib.libreoffice.program.*
+ 1481  sudo ln -s /etc/apparmor.d/usr.lib.libreoffice.program.* /etc/apparmor.d/disable/
+ 1482  sudo chown -R user /rajeev
+ 1483  sudo chgrp -R user /rajeev
+ 1484  sudo chgrp -R user /rajeev/WorkDocuments//KSITM/
+ 1485  sudo chown -R user /rajeev/WorkDocuments/KSITM/
+ 1486  mvn clean install
+ 1487  sudo apt install maven
+ 1488  mvn clean install
+ 1489  sudo chown -R user /rajeev/downloads/Knowage
+ 1490  sudo chgrp -R user /rajeev/downloads/Knowage
+ 1491  mkdir .dist
+ 1492  type xx
+ 1493  type "hello"
+ 1494  echo "{}" >> input.json
+ 1495  sudo apt-get install libreoffice-mysql-connector 
+ 1496  npm init
+ 1497  ls
+ 1498  npm install fs
+ 1499  sudo npm install fs
+ 1500  node -v
+ 1501  sudo npm install util
+ 1502  exit
+ 1503  echo "Hi" > gitcommands
+ 1504  git init
+ 1505  git add .
+ 1506  git commit -m "first commit"
+ 1507  git remote add origin https://github.com/rajeevmc77/TransferAndPostingNodejs.git
+ 1508  git push -u origin master
+ 1509  node index.js
+ 1510  mkdir .dist
+ 1511  sudo chgrp -R user /home/user/.npm/
+ 1512  sudo chown -R user /home/user/.npm/
+ 1513  git push -u origin master
+ 1514  commit
+ 1515  commit -m 'updates added'
+ 1516  add .
+ 1517  git add .
+ 1518  commit -m 'updates added'
+ 1519  git commit -m 'updates added'
+ 1520  git push -u origin master
+ 1521  git commit -m 'updates added'
+ 1522  git push -u origin master
+ 1523  git commit -m 'updates added'
+ 1524  git push -u origin master
+ 1525  git add .
+ 1526  git commit -m 'updates added'
+ 1527  git push -u origin master
+ 1528  git add .
+ 1529  git commit -m 'updates added'
+ 1530  git push -u origin master
+ 1531  exit
+ 1532  node index.js
+ 1533  node datalayer.js
+ 1534  node index.js
+ 1535  clear
+ 1536  node index.js
+ 1537  zap
+ 1538  sudo chmod  777 ./zap.sh
+ 1539  ./zap
+ 1540  sh ./zap.sh
+ 1541  ./zap.sh
+ 1542  git pull
+ 1543  sudo git pull
+ 1544  sudo git fetch --all
+ 1545  git reset --hard origin/master
+ 1546  sudo git reset --hard origin/master
+ 1547  sudo git pull
+ 1548  django -version
+ 1549  django --version
+ 1550  djangoadmin --version
+ 1551  django-admin 
+ 1552  django-admin  --version
+ 1553  ssh kiteusr@192.168.1.107
+ 1554  mkdir .dist
+ 1555  ng new myApp
+ 1556  ng e2e
+ 1557  npm start
+ 1558  ng e2e
+ 1559  mkdir .dist
+ 1560  ng e2e
+ 1561  protractor debug protractor.conf.js
+ 1562  ng e2e debug
+ 1563  ng debug  e2e
+ 1564  node --inspect-brk ./node_modules/\@angular/cli/bin/ng e2e ./protractor.conf.js
+ 1565  sudo node --inspect-brk ./node_modules/\@angular/cli/bin/ng e2e ./protractor.conf.js
+ 1566  git clone https://github.com/Cartab/angular-e2e-testing
+ 1567  npm install
+ 1568  ng serve
+ 1569  ng e2e
+ 1570  npm install -g protractor
+ 1571  sudo npm install -g protractor
+ 1572  ng e2e
+ 1573  ng serve
+ 1574  npm start
+ 1575  ping https://bitbucket.org
+ 1576  traceroute https://bitbucket.org
+ 1577  tracert https://bitbucket.org
+ 1578  sudo apt install traceroute
+ 1579  traceroute https://bitbucket.org
+ 1580  traceroute bitbucket.org
+ 1581  node --inspect-brk ./node_modules/\@angular/cli/bin/ng e2e ./protractor.conf.js
+ 1582  node --inspect-brk 
+ 1583  node 
+ 1584  ng debug  e2e
+ 1585  ng  e2e
+ 1586  mkdir .dist
+ 1587  npm install
+ 1588  mkdir .dist
+ 1589  npm start
+ 1590  webdriver-manager update
+ 1591  sudo webdriver-manager update
+ 1592  npm start
+ 1593  webdriver-manager update
+ 1594  npm start
+ 1595  cd ..
+ 1596  cd ang
+ 1597  cd ./angtest/
+ 1598  npm install webdriver-manager 
+ 1599  webdriver-manager update
+ 1600  npm start
+ 1601  ./node_modules/protractor/bin/webdriver-manager update
+ 1602  mkdir .dist
+ 1603  ng  e2e
+ 1604  ng e2e
+ 1605  ng build 
+ 1606  ng e2e
+ 1607  ssh kiteusr@192.168.1.107
+ 1608  ls
+ 1609  jmeter -n -t ss.jmx -l ss.log
+ 1610  jmeter
+ 1611  jmeter /?
+ 1612  jmeter ?
+ 1613  jmeter --help
+ 1614  protractor
+ 1615  type x > jmeter.sh
+ 1616  echo  x > jmeter.sh
+ 1617  sudo chmod +x jmeter.sh
+ 1618  jmeter
+ 1619  sudo chmod +x jmeter
+ 1620  jmeter
+ 1621  jmeter.sh
+ 1622  ./jmeter.sh
+ 1623  sh ./jmeter.sh
+ 1624  sudo chmod +x jmeter.sh 
+ 1625  ./jmeter.sh
+ 1626  mkdir .dist
+ 1627  protractor tsconfig.e2e.json 
+ 1628  cd ..
+ 1629  protractor ./e2e/tsconfig.e2e.json 
+ 1630  find . -maxdepth 1 -mtime -1
+ 1631  wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - 
+ 1632  deb [arch=amd64] https://repo.fortinet.com/repo/ubuntu/ xenial multiverse 
+ 1633  sudo gedit /etc/apt/sources.list
+ 1634  sudo apt-get update 
+ 1635  sudo apt install forticlient 
+ 1636  forticlient
+ 1637  sudo gedit /etc/apt/sources.list
+ 1638  wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - 
+ 1639  sudo apt-get update 
+ 1640  cd /rajeev/
+ 1641  sudo chmod -R 777 ./
+ 1642  history > commands.txt
+ 1643  sudo chgrp -R user ./
+ 1644  sudo chown -R user ./
+ 1645  mkdir .dist
+ 1646  cd /usr/share/applications/
+ 1647  ls
+ 1648  cat mysql-workbench.desktop 
+ 1649  cd ~
+ 1650  cd .local
+ 1651  cd share
+ 1652  cd applications/
+ 1653  ls
+ 1654  cat eclipse
+ 1655  cat eclipse.desktop 
+ 1656  ls
+ 1657  cat apache_jmeter.desktop 
+ 1658  ls
+ 1659  sudo gedit eclipse.desktop 
+ 1660  cd /usr/share/applications/
+ 1661  ls
+ 1662  sudo chgrp -R user ./
+ 1663  sudo chown -R user ./
+ 1664  netstat -tulpn
+ 1665  netstat -tulpn | grep 63841
+ 1666  netstat -tulpn | grep 57201
+ 1667  history | grep gitlab-ctl
+ 1668  sudo gitlab-ctl stop
+ 1669  sudo chgrp -R user ./
+ 1670  sudo chown -R user ./
+ 1671  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1672  sudo chmod 775 kite-web.pem 
+ 1673  sudo chmod 400  kite-web.pem 
+ 1674  history | grep kite
+ 1675  clear
+ 1676  history | grep samanwaya
+ 1677  sudo chmod 775 kite_weB.PEM
+ 1678  ssh -i "kite-web.pem" ubuntu@13.232.34.82
+ 1679  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1680  mkdir .dist
+ 1681  sudo chmod 777 index.html
+ 1682  mkdir .dist
+ 1683  sudo systemctl nginx start
+ 1684  sudo systemctl  start nginx
+ 1685  sudo systemctl  restart nginx
+ 1686  sudo systemctl  stop gitlab-ctl
+ 1687  history | grep gitlab
+ 1688  sudo gitlab-ctl stop
+ 1689  sudo systemctl  restart nginx
+ 1690  ssh -i "kite-web.pem" ubuntu@13.232.34.82
+ 1691  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1692  exit
+ 1693  tomcat
+ 1694  sudo chmod +x netbeans-8.2-javaee-linux.sh 
+ 1695  ./netbeans-8.2-javaee-linux.sh 
+ 1696  exit
+ 1697  mvn clean install
+ 1698  exit
+ 1699  sudo chmod +x Postman 
+ 1700  mkdir .dist
+ 1701  cd development/
+ 1702  tar xf ../flutter_linux_v1.7.8+hotfix.4-stable.tar.xz 
+ 1703  echo $HOME
+ 1704  pwd
+ 1705  sudo gedit $HOME/.bashrc
+ 1706  echo $PATH
+ 1707  source $HOME/.bashrc
+ 1708  echo $PATH
+ 1709  sudo gedit $HOME/.bashrc
+ 1710  cat  $HOME/.bashrc
+ 1711  exit
+ 1712  sudo chmod +x flutter
+ 1713  flutter 
+ 1714  flutter
+ 1715  exit
+ 1716  flutter 
+ 1717  mkdir .dist
+ 1718  sudo chmod +777 -R ./
+ 1719  sudo apt-get install lib32stdc++6
+ 1720  sudo chmod +x studio.sh
+ 1721  studio.sh
+ 1722  sh studio.sh
+ 1723  flutter precache
+ 1724  flutter doctor
+ 1725  sh studio.sh
+ 1726  echo $ANDOID_HOME 
+ 1727  echo $ANDROID_HOME 
+ 1728  flutter doctor
+ 1729  flutter doctor   --android-licenses
+ 1730  flutter doctor
+ 1731  sh studio.sh
+ 1732  flutter doctor   --android-licenses
+ 1733  flutter doctor
+ 1734  sudo chmod +x fsnotifier
+ 1735  sudo chmod +x fsnotifier64 
+ 1736  sudo chmod +x studio.sh
+ 1737  sudo gedit $HOME/.bashrc
+ 1738  source  $HOME/.bashrc
+ 1739  flutter doctor
+ 1740  sudo gedit $HOME/.bashrc
+ 1741  flutter doctor
+ 1742  sudo gedit $HOME/.bashrc
+ 1743  source  $HOME/.bashrc
+ 1744  flutter doctor
+ 1745  sudo gedit $HOME/.bashrc
+ 1746  source  $HOME/.bashrc
+ 1747  flutter doctor
+ 1748  flutter doctor -v
+ 1749  echo $ANDROID_HOME
+ 1750  flutter doctor
+ 1751  flutter doctor -v
+ 1752  flutter precache
+ 1753  which flutter
+ 1754  echo $ANDROID_HOME
+ 1755  exit
+ 1756  mkdir .dist
+ 1757  sudo chmod +x flutter
+ 1758  echo $PATH
+ 1759  sudo gedit $HOME/.bashrc
+ 1760  source  $HOME/.bashrc
+ 1761  echo $PATH
+ 1762  flutter create my_app
+ 1763  cd my_app/
+ 1764  flutter run 
+ 1765  flutter
+ 1766  flutter upgrade
+ 1767  mkdir .dist
+ 1768  sdkmanager
+ 1769  cd /dev
+ 1770  cd kvm
+ 1771  ls
+ 1772  sudo apt install qemu-kvm
+ 1773  echo $USER
+ 1774  ls -al /dev/kvm
+ 1775  grep kvm /etc/group
+ 1776  sudo adduser $USER kvm
+ 1777  ls -al /dev/kvm
+ 1778  grep kvm /etc/group
+ 1779  sudo chown -R root:user /dev/kvm
+ 1780  ls -al /dev/kvm
+ 1781  sudo chmod o+x /dev/kvm
+ 1782  mkdir .dist
+ 1783  echo $PATH
+ 1784  ls -al /rajeev/downloads/Flutter/development/flutter 
+ 1785  ls -al /rajeev/downloads/Flutter/development/flutter/bin
+ 1786  printenv
+ 1787  ls -al /dev/kvm
+ 1788  sudo adduser $USER kvm
+ 1789  ls -al /dev/kvm
+ 1790  sudo adduser $USER kvm
+ 1791  sudo chown -R user /dev/kvm
+ 1792  ls -al /dev/kvm
+ 1793  history | grep gitlab
+ 1794  sudo gitlab-ctl stop
+ 1795  ./startup.sh
+ 1796  ./shutdown.sh
+ 1797  sudo ./startup.sh
+ 1798  sudo gitlab-ctl stop
+ 1799  sudo ./startup.sh
+ 1800  sudo gitlab-ctl stop
+ 1801  sudo ./startup.sh
+ 1802  sudo gitlab-ctl stop
+ 1803  sudo ./startup.sh
+ 1804  sudo gitlab-ctl stop
+ 1805  sudo ./startup.sh
+ 1806  sudo gitlab-ctl stop
+ 1807  sudo ./startup.sh
+ 1808  sudo ./shutdown.sh
+ 1809  sudo ./startup.sh
+ 1810  sudo lsof -i -P 
+ 1811  sudo lsof -i -P | grep 8080
+ 1812  sudo ./shutdown.sh
+ 1813  sudo lsof -i -P |grep 8080
+ 1814  sudo ./startup.sh
+ 1815  sudo lsof -i -P |grep 8080
+ 1816  sudo ./shutdown.sh
+ 1817  sudo lsof -i -P |grep 8080
+ 1818  sudo ./startup.sh
+ 1819  sudo lsof -i -P |grep 8080
+ 1820  sudo ./shutdown.sh
+ 1821  sudo lsof -i -P |grep 8080
+ 1822  sudo ./shutdown.sh
+ 1823  sudo gitlab-ctl stop
+ 1824  sudo lsof -i -P |grep 8080
+ 1825  sudo ./shutdown.sh
+ 1826  sudo lsof -i -P |grep 8080
+ 1827  kill -9 5211
+ 1828  sudo kill -9 5211
+ 1829  sudo lsof -i -P |grep 8080
+ 1830  sudo ./startup.sh
+ 1831  sudo lsof -i -P |grep 8080
+ 1832  sudo gitlab-ctl stop
+ 1833  sudo lsof -i -P |grep 8080
+ 1834  sudo ./startup.sh
+ 1835  sudo lsof -i -P |grep 8080
+ 1836  ifconfig
+ 1837  sudo gitlab-ctl stop
+ 1838  sudo lsof -i -P |grep 8080
+ 1839  sudo ./startup.sh
+ 1840  sudo lsof -i -P |grep 8080
+ 1841  sudo ./shutdown.sh
+ 1842  sudo lsof -i -P |grep 8080
+ 1843  sudo ./shutdown.sh
+ 1844  sudo lsof -i -P |grep 8080
+ 1845  sudo gitlab-ctl stop
+ 1846  sudo lsof -i -P |grep 8080
+ 1847  sudo ./shutdown.sh
+ 1848  sudo lsof -i -P |grep 8080
+ 1849  sudo ./startup.sh
+ 1850  sudo lsof -i -P |grep 8080
+ 1851  sudo ./shutdown.sh
+ 1852  exit
+ 1853  sudo gitlab-ctl stop
+ 1854  sudo chmod +x neo4j-desktop-offline-1.2.1-x86_64.AppImage
+ 1855  exit
+ 1856  wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add -
+ 1857  echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.list.d/neo4j.list
+ 1858  sudo apt-get update
+ 1859  sudo apt-get install neo4j
+ 1860  neo4j
+ 1861  sudo gitlab-ctl stop
+ 1862  neo4j start
+ 1863  sudo neo4j start
+ 1864  echo $NEO4J_HOME
+ 1865  sudo neo4j -c "service neo4j start"
+ 1866  sudo neo4j status 
+ 1867  sudo neo4j start
+ 1868  sudo ulimit 40000
+ 1869  sudo limit 40000
+ 1870  ulimit
+ 1871  ulimit -n
+ 1872  sudo gedit /etc/security/limits.conf
+ 1873  sudo neo4j start
+ 1874  ulimit -n
+ 1875  sudo neo4j start
+ 1876  ls -l /var/run/neo4j
+ 1877  sudo ls -l /var/run/neo4j
+ 1878  neo4j start
+ 1879  apt-get install neo4j
+ 1880  sudo apt-get install neo4j
+ 1881  sudo service neo4j start
+ 1882  sudo service neo4j stop
+ 1883  mkdir .dist
+ 1884  sudo su
+ 1885  mkdir .dist
+ 1886  touch first.html
+ 1887  sudo gitlab-ctl stop
+ 1888  sudo ./startup.sh
+ 1889  sudo gitlab-ctl stop
+ 1890  mkdir .dist
+ 1891  cd "/home/user/Desktop/type speed" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/user/.vscode/extensions/ms-python.python-2019.6.24221/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 44087 "/home/user/Desktop/type speed/pytypespeed-0.04.py" 
+ 1892  sudo ./startup.sh
+ 1893  sudo chmod ./venv/bin/activate
+ 1894  sudo chmod +x  ./venv/bin/activate
+ 1895  ./venv/bin/activate
+ 1896  . ./venv/bin/activate
+ 1897  sudo apt-get install python-gtk2-dev
+ 1898  pip3 install pangocffi
+ 1899  sudo pip3 install pangocffi
+ 1900  sudo pip3 install pango
+ 1901  sudo pip install pango
+ 1902  pip3 install pygtk
+ 1903  sudo pip3 install pygtk
+ 1904  sudo apt install python-gtk2 python-gtk2-dev
+ 1905  python3 pytypespeed.py
+ 1906  ./pygtk-demo.py
+ 1907  sudo chmod +x ./pygtk-demo.py
+ 1908  ./pygtk-demo.py
+ 1909  sudo apt-get update
+ 1910  sudo apt-get install python-gtk2-dev
+ 1911  which python
+ 1912  whereis python3
+ 1913  echo $PYTHONPATH
+ 1914  echo $PYTHONPATH 
+ 1915  mkdir .dist
+ 1916  python pytypespeed-0.04.py
+ 1917  python3 pytypespeed-0.04.py
+ 1918  python2 pytypespeed-0.04.py
+ 1919  python pytypespeed.py 
+ 1920  whereis python
+ 1921  clear
+ 1922  sudo chmod +x pytypespeed.pt
+ 1923  sudo chmod +x pytypespeed.py
+ 1924  . ./pytypespeed.py
+ 1925  sudo . ./pytypespeed.py
+ 1926  sudo ./pytypespeed.py
+ 1927  whereis python
+ 1928  sudo apt-get install gnome-tweaks
+ 1929  history | ssh
+ 1930  history 
+ 1931  history | ssh
+ 1932  history | grep ssh
+ 1933  ssh -i "kite-web.pem" ubuntu@13.232.34.82
+ 1934  sudo chmod 400 ./kite-web.pem 
+ 1935  ssh -i "kite-web.pem" ubuntu@13.232.34.82
+ 1936  ssh -i "kite-web.pem" centos@13.232.34.82
+ 1937  exit
+ 1938  sudo gitlab-ctl stop
+ 1939  sudo snap install glade
+ 1940  sudo apt-get install glade
+ 1941  sudo apt-get install libgtk-3-dev
+ 1942  sudo gitlab-ctl stop
+ 1943  sudo apt-get install python-glade2
+ 1944  sudo gitlab-ctl stop
+ 1945  sudo apt-get install python-glade2
+ 1946  sudo apt-get install python-wxglade
+ 1947  glade
+ 1948  sudo apt  install glade
+ 1949  sudo apt-get remove --auto-remove glade
+ 1950  sudo apt-get purge glade
+ 1951  sudo apt-get purge --auto-remove glade
+ 1952  sudo apt-get install python-glade2
+ 1953  sudo apt-get purge --auto-remove python-glade2
+ 1954  sudo apt-get remove --auto-remove python-glade2
+ 1955  sudo apt-get install python-glade2
+ 1956  glade
+ 1957  python-glade2
+ 1958  glade2
+ 1959  sudo apt-get install python-glade2
+ 1960  sudo apt-get remove --auto-remove python-glade2
+ 1961  sudo apt-get purge --auto-remove python-glade2
+ 1962  sudo apt-get update
+ 1963  sudo apt-get install python-glade2
+ 1964  python-glade2
+ 1965  glade
+ 1966  snap info glade
+ 1967  whereis python-glade2
+ 1968  whereis glade2
+ 1969  whereis glade
+ 1970  whereis xglade
+ 1971  whereis pglade
+ 1972  sudo apt-get purge --auto-remove python-glade2
+ 1973  sudo apt-get update
+ 1974  sudo apt-get install  glade
+ 1975  sudo apt-get install  python-glade
+ 1976  sudo apt-get install  wxglade
+ 1977  sudo apt-get remove   wxglade
+ 1978  sudo apt-get install --reinstall overlay-scrollbar-gtk2
+ 1979  sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+ 1980  sudo apt-get install python-glade2
+ 1981  sudo apt-get install libgtk-3-dev
+ 1982  sudo apt install libgtk-3-dev
+ 1983  sudo gitlab-ctl stop
+ 1984  sudo ./startup.sh
+ 1985  mkdir .dist
+ 1986  git clone https://github.com/rajeevmc77/EXIFModifierWebAPI.git
+ 1987  cd EXIFModifierWebAPI/
+ 1988  npm install
+ 1989  sudo npm install -g npm 
+ 1990  npm start
+ 1991  npm install
+ 1992  npm start
+ 1993  sudo npm start
+ 1994  npm install piexif
+ 1995  npm start
+ 1996  npm install piexifjs
+ 1997  npm start
+ 1998  npm install read-exif
+ 1999  npm start
+ 2000  npm install dateformat
+ 2001  npm start
+ 2002  npm install md5
+ 2003  npm start
+ 2004  lsof 
+ 2005  lsof | grep 3000
+ 2006  lsof | grep "3000"
+ 2007  lsof -i  | grep "3000"
+ 2008  lsof -i :4000
+ 2009  lsof -i :3000
+ 2010  npm start
+ 2011  hostory |grep lsof
+ 2012  history |grep lsof
+ 2013  sudo lsof -i -P |grep 3000
+ 2014  history |grep git
+ 2015  sudo gitlab-ctl stop
+ 2016  history > linux commands 
+ 2017  history > linuxcommands 
