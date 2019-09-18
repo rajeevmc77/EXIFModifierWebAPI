@@ -144,7 +144,7 @@
             var data = new FormData(),
                 request;
 
-            data.append('file', document.querySelector('#upload-file').files[0]);
+            data.append('imgFromSchool', document.querySelector('#upload-file').files[0]);
 
             var request = new XMLHttpRequest();
             request.addEventListener('load', function(e) {
